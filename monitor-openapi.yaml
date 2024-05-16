@@ -1,0 +1,75 @@
+openapi: "3.1.0"
+info:
+  title: "API Monitoring"
+  description: "OpenAPI spec for API Monitoring homework"
+  version: "1.0.0"
+servers:
+  - url: "http://localhost:8080"
+paths:
+  /api/student:
+    get:
+      summary: "GET api/student"
+      description: "Get a list of students of given amount"
+      operationId: "getStudents"
+      parameters:
+        - name: "amount"
+          in: "query"
+          required: true
+          schema:
+            type: "integer"
+            format: "int32"
+      responses:
+        "200":
+          description: "OK"
+          content:
+            '*/*':
+              schema:
+                $ref: "#/components/schemas/Object"
+  /api/rate:
+    put:
+      summary: "PUT api/rate"
+      description: "Change rate limiter's limit for period"
+      operationId: "changeRate"
+      parameters:
+        - name: "rate"
+          in: "query"
+          required: true
+          schema:
+            type: "integer"
+            format: "int32"
+      responses:
+        "200":
+          description: "OK"
+          content:
+            '*/*':
+              schema:
+                type: "string"
+    get:
+      summary: "GET api/rate"
+      description: "Get rate limiter's limit for period"
+      operationId: "rate"
+      responses:
+        "200":
+          description: "OK"
+          content:
+            '*/*':
+              schema:
+                type: "string"
+  /api/time:
+    get:
+      summary: "GET api/time"
+      description: "Get each category's average response time"
+      operationId: "calcAvg"
+      responses:
+        "200":
+          description: "OK"
+          content:
+            '*/*':
+              schema:
+                type: "integer"
+                format: "int32"
+components:
+  schemas:
+    Object:
+      type: "object"
+      properties: { }

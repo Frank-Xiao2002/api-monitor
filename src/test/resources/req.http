@@ -1,0 +1,28 @@
+### Get Students without parameter
+GET http://localhost:8080/api/student
+
+### Get Students with parameter
+GET http://localhost:8080/api/student?
+    amount=2.2
+
+### Get Students with parameter but amount is not digit
+GET http://localhost:8080/api/student?
+    amount=asdfsd
+
+### Get Students with parameter but amount is too big
+GET http://localhost:8080/api/student?
+    amount=100001
+
+### Get Students with parameter
+GET http://localhost:8080/api/student?
+    amount=100
+
+### Change limiting rate at runtime
+PUT http://localhost:8080/api/rate?
+    rate=400
+
+### Get current limiting rate
+GET http://localhost:8080/api/rate
+
+### Get average time
+GET http://localhost:8080/api/time

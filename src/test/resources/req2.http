@@ -1,0 +1,92 @@
+
+### Get Students with parameter
+GET http://localhost:8080/api/student?
+    amount=11
+
+### Get Students with parameter
+GET http://localhost:8080/api/student?
+    amount=89
+
+### Get Students with parameter
+GET http://localhost:8080/api/student?
+    amount=110
+
+### Get Students with parameter
+GET http://localhost:8080/api/student?
+    amount=199
+
+### Get Students with parameter
+GET http://localhost:8080/api/student?
+    amount=223
+
+### Get Students with parameter
+GET http://localhost:8080/api/student?
+    amount=200
+
+### Get Students with parameter
+GET http://localhost:8080/api/student?
+    amount=208
+
+### Get Students with parameter
+GET http://localhost:8080/api/student?
+    amount=323
+
+### Get Students with parameter
+GET http://localhost:8080/api/student?
+    amount=393
+
+### Get Students with parameter
+GET http://localhost:8080/api/student?
+    amount=442
+
+### Get Students with parameter
+GET http://localhost:8080/api/student?
+    amount=477
+
+### Get Students with parameter
+GET http://localhost:8080/api/student?
+    amount=555
+
+### Get Students with parameter
+GET http://localhost:8080/api/student?
+    amount=523
+
+### Get Students with parameter
+GET http://localhost:8080/api/student?
+    amount=666
+
+### Get Students with parameter
+GET http://localhost:8080/api/student?
+    amount=615
+
+### Get Students with parameter
+GET http://localhost:8080/api/student?
+    amount=618
+
+### Get Students with parameter
+GET http://localhost:8080/api/student?
+    amount=777
+
+### Get Students with parameter
+GET http://localhost:8080/api/student?
+    amount=707
+
+### Get Students with parameter
+GET http://localhost:8080/api/student?
+    amount=888
+
+### Get Students with parameter
+GET http://localhost:8080/api/student?
+    amount=858
+
+### Get Students with parameter
+GET http://localhost:8080/api/student?
+    amount=999
+
+### Get Students with parameter
+GET http://localhost:8080/api/student?
+    amount=1000
+
+### Get Students with parameter
+GET http://localhost:8080/api/student?
+    amount=937
